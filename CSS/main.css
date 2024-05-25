@@ -89,6 +89,7 @@ header {
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   overflow: hidden;
   color: white;
 }
@@ -354,6 +355,9 @@ header .header-data p .typing {
   position: relative;
 }
 @media all and (max-width: 770px) {
+  header {
+    background-attachment: scroll;
+  }
   header .header-data p {
     font-size: 30px;
     line-height: 36px;
@@ -826,6 +830,7 @@ h3.main-title::after {
 }
 .contact textarea {
   height: 160px;
+  min-height: 160px;
   margin-bottom: 15px;
 }
 .contact button {
