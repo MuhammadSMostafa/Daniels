@@ -728,7 +728,8 @@ h3.main-title::after {
 .team .team-card .layer .icons {
   transition: transform 1s;
   position: absolute;
-  top: 25%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .team .team-card .layer .icons .icon {
   font-size: 14px;
